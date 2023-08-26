@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["hedwig-julian"],
+  extends: ["hedwig-julian", "plugin:storybook/recommended"],
 };

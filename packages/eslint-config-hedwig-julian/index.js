@@ -32,6 +32,7 @@ module.exports = {
     ],
   },
   ignorePatterns: [
+    "dist/*",
     "build/*",
     "node_modules/*",
     "playwright-report/*",

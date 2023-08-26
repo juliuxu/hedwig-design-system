@@ -4,6 +4,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev --no-cache --continue",
     "lint": "turbo run lint",
+    "lint:fix": "turbo run lint -- --fix",
     "clean": "turbo run clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
@@ -14,7 +15,7 @@
     "@changesets/cli": "^2.25.2",
     "eslint": "^8.29.0",
     "eslint-config-acme": "0.0.0",
-    "prettier": "^2.8.0",
+    "prettier": "3.0.2",
     "turbo": "latest"
   },
   "packageManager": "npm@9.8.0",

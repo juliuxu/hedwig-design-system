@@ -1,0 +1,10 @@
+/* @tailwind components;
+@tailwind utilities; */
+
+.root {
+  background-color: red;
+
+  &>span{
+    color: blue;
+  }
+}

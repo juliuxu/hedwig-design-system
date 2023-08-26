@@ -4,12 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "preview-storybook": "serve storybook-static",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
     "@hedwig-julian/core": "0.0.0",
@@ -17,6 +15,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@hedwig-julian/tsconfig": "0.0.0",
+    "eslint-config-hedwig-julian": "0.0.0",
     "@storybook/addon-essentials": "7.3.2",
     "@storybook/addon-interactions": "7.3.2",
     "@storybook/addon-links": "7.3.2",
@@ -34,6 +34,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-storybook": "0.6.13",
+    "serve": "14.2.1",
     "storybook": "7.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"

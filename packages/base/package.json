@@ -1,14 +1,13 @@
 {
   "name": "@hedwig-julian/base",
   "version": "0.1.0",
-  "main": "./dist/index.css",
   "sideEffects": false,
   "license": "MIT",
   "files": [
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.css",
+    "build": "tsup --entry src/posten.css --entry src/bring.css",
     "dev": "npm run build -- --watch",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"

@@ -29,6 +29,11 @@
       "type": "color"
     },
 
+    "button": {
+      "type": "color",
+      "text": { "value": "{ui-colors.black}" }
+    },
+
     "h1-display": {
       "fontFamily": { "value": "{typography.bring-h1-display.fontFamily}" },
       "fontSize": {

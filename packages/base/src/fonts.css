@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Posten Sans Light";
+  src: url("@hedwig-julian/tokens/assets/fonts/PostenSans-Light.eot");
+  src:
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Light.woff2")
+      format("woff2"),
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Light.woff")
+      format("woff"),
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Light.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Posten Sans Regular";
+  src: url("@hedwig-julian/tokens/assets/fonts/PostenSans-Regular.eot");
+  src:
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Regular.woff2")
+      format("woff2"),
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Regular.woff")
+      format("woff"),
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Posten Sans Medium";
+  src: url("@hedwig-julian/tokens/assets/fonts/PostenSans-Medium.eot");
+  src:
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Medium.woff2")
+      format("woff2"),
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Medium.woff")
+      format("woff"),
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Medium.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Posten Sans Bold";
+  src: url("@hedwig-julian/tokens/assets/fonts/PostenSans-Bold.eot");
+  src:
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Bold.woff2")
+      format("woff2"),
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Bold.woff")
+      format("woff"),
+    url("@hedwig-julian/tokens/assets/fonts/PostenSans-Bold.ttf")
+      format("truetype");
+}

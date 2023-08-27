@@ -1,23 +1,24 @@
-import { type ComponentPropsWithRef, forwardRef } from "react";
+import { type ButtonHTMLAttributes, forwardRef } from "react";
 import classes from "./button.module.css";
 import cn from "classnames";
 
-export interface ButtonProps extends ComponentPropsWithRef<"button"> {
+export type ButtonProps = {
+  children?: React.ReactNode;
   color?: "primary" | "secondary";
-  variant?: "solid" | "outline";
+  variant?: "filled" | "outline";
   size?: "small" | "medium" | "large";
+  disabled?: boolean;
   fullWidth?: boolean;
   fullWidthOnMobile?: boolean;
-  disabled?: boolean;
-}
+} & ButtonHTMLAttributes<HTMLButtonElement>;
 
-export const Button = forwardRef<HTMLButtonElement>(
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {
       className,
       children,
       color = "primary",
-      variant = "solid",
+      variant = "filled",
       size = "medium",
       fullWidth = false,
       fullWidthOnMobile = false,
@@ -35,6 +36,7 @@ export const Button = forwardRef<HTMLButtonElement>(
         classes.root,
         classes[color],
         classes[variant],
+        classes[size],
         fullWidth && classes.fullWidth,
         fullWidthOnMobile && classes.fullWidthOnMobile,
         disabled && classes.disabled

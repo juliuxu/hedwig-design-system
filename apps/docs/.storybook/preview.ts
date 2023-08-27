@@ -1,6 +1,6 @@
 import type { Preview } from "@storybook/react";
 
-import "@hedwig-julian/base/dist/index.css";
+import "@hedwig-julian/base/dist/posten.css";
 
 const preview: Preview = {
   parameters: {

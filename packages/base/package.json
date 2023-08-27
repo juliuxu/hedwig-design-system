@@ -1,9 +1,7 @@
 {
   "name": "@hedwig-julian/base",
   "version": "0.1.0",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/index.css",
   "sideEffects": false,
   "license": "MIT",
   "files": [

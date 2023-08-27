@@ -1,4 +1,4 @@
-import StyleDictionaryPackage from "style-dictionary";
+import StyleDictionaryPackage, { transform } from "style-dictionary";
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
@@ -6,7 +6,7 @@ type Brand = "posten" | "bring";
 const brands: Brand[] = ["posten", "bring"];
 function getStyleDictionaryConfig(brand: Brand) {
   return {
-    source: ["tokens/shared.json", `tokens/brand-${brand}.json`],
+    source: ["tokens/shared.json", `tokens/brands/${brand}.json`],
     platforms: {
       web: {
         prefix: "hds",
@@ -16,6 +16,9 @@ function getStyleDictionaryConfig(brand: Brand) {
           {
             destination: "tokens.css",
             format: "css/variables",
+            options: {
+              outputReferences: true,
+            },
           },
         ],
       },

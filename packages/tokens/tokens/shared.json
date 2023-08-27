@@ -148,7 +148,7 @@
       "value": "160px"
     }
   },
-  "fonts" : {
+  "fonts": {
     "type": "fontFamily",
     "posten-sans-bold": {
       "value": ["Posten Sans Bold", "Arial", "sans-serif"]
@@ -166,7 +166,7 @@
   "typography": {
     "type": "typography",
     "posten-h1-display": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-bold}",
         "fontSize": ["40px", "72px"],
         "lineHeight": ["56px", "80px"],
@@ -175,7 +175,7 @@
       }
     },
     "posten-h1": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-bold}",
         "fontSize": ["32px", "48px"],
         "lineHeight": ["40px", "56px"],
@@ -184,7 +184,7 @@
       }
     },
     "posten-h2": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-medium}",
         "fontSize": ["28px", "32px"],
         "lineHeight": ["36px", "40px"],
@@ -193,7 +193,7 @@
       }
     },
     "bring-h1-display": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-light}",
         "fontSize": ["40px", "72px"],
         "lineHeight": ["56px", "80px"],
@@ -202,7 +202,7 @@
       }
     },
     "bring-h1": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-light}",
         "fontSize": ["32px", "48px"],
         "lineHeight": ["40px", "56px"],
@@ -211,7 +211,7 @@
       }
     },
     "bring-h2": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-regular}",
         "fontSize": ["28px", "32px"],
         "lineHeight": ["36px", "40px"],
@@ -220,7 +220,7 @@
       }
     },
     "header-h3": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-regular}",
         "fontSize": ["22px", "24px"],
         "lineHeight": ["28px", "32px"],
@@ -229,7 +229,7 @@
       }
     },
     "header-h3-title": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-medium}",
         "fontSize": ["22px", "24px"],
         "lineHeight": ["28px", "32px"],
@@ -238,7 +238,7 @@
       }
     },
     "body": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-regular}",
         "fontSize": ["18px", "20px"],
         "lineHeight": ["26px", "28px"],
@@ -246,8 +246,8 @@
         "letterSpacing": "0"
       }
     },
-    "body title": {
-      "$value": {
+    "body-title": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-medium}",
         "fontSize": ["18px", "20px"],
         "lineHeight": ["26px", "28px"],
@@ -255,8 +255,8 @@
         "letterSpacing": "0"
       }
     },
-    "body small": {
-      "$value": {
+    "body-small": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-regular}",
         "fontSize": ["16px", "18px"],
         "lineHeight": ["24px", "26px"],
@@ -264,8 +264,8 @@
         "letterSpacing": "0"
       }
     },
-    "body small title": {
-      "$value": {
+    "body-small-title": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-medium}",
         "fontSize": ["16px", "18px"],
         "lineHeight": ["24px", "26px"],
@@ -274,7 +274,7 @@
       }
     },
     "technical": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-regular}",
         "fontSize": ["14px", "16px"],
         "lineHeight": ["22px", "24px"],
@@ -282,8 +282,8 @@
         "letterSpacing": "0"
       }
     },
-    "technical title": {
-      "$value": {
+    "technical-title": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-medium}",
         "fontSize": ["14px", "16px"],
         "lineHeight": ["22px", "24px"],
@@ -292,7 +292,7 @@
       }
     },
     "caption": {
-      "$value": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-regular}",
         "fontSize": "13px",
         "lineHeight": "18px",
@@ -300,8 +300,8 @@
         "letterSpacing": "0"
       }
     },
-    "caption title": {
-      "$value": {
+    "caption-title": {
+      "value": {
         "fontFamily": "{fonts.posten-sans-regular}",
         "fontSize": "13px",
         "lineHeight": "18px",
@@ -324,7 +324,7 @@
   },
   "shadow-default": {
     "$type": "shadow",
-    "$value": {
+    "value": {
       "color": "#00000022",
       "offsetX": "0px",
       "offsetY": "1px",
@@ -335,13 +335,13 @@
   "micro-animation": {
     "$type": "cubicBezier",
     "easing-in": {
-      "$value": [0.65, 0, 1, 0.1]
+      "value": [0.65, 0, 1, 0.1]
     },
     "easing-out": {
-      "$value": [0, 0.45, 0.1, 1]
+      "value": [0, 0.45, 0.1, 1]
     },
     "easing-normal": {
-      "$value": [0.45, 0.10, 0.65, 1]
+      "value": [0.45, 0.1, 0.65, 1]
     }
   }
 }

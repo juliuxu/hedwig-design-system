@@ -1,10 +1,66 @@
-/* @tailwind components;
-@tailwind utilities; */
-
 .root {
-  background-color: red;
+  -webkit-font-smoothing: antialiased;
+  appearance: button;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: var(--hwc-spacing-small-3) var(--hwc-spacing-medium-2);
+  margin-right: var(--hwc-spacing-small-4);
+  border-radius: var(--hwc-border-radius);
+  border-width: 0px;
+  background: var(--hwc-color-gray-normal);
+  border-color: var(--hwc-color-gray-normal);
+  color: var(--hwc-color-button-text);
+  fill: var(--hwc-color-button-text);
+  font-family: var(--hwc-font-primary-medium);
+  font-size: var(--hwc-font-size-small);
+  line-height: var(--hwc-font-size-p);
+  transition: all var(--hwc-transition-time-quick)
+    var(--hwc-transition-easing-normal);
+  text-align: center; /* Center text when this is an <a> */
+  cursor: pointer;
+  word-break: normal;
+}
 
-  &>span{
-    color: blue;
-  }
+/**
+ * Disabled
+ */
+.disabled {
+  color: var(--hwc-color-gray-dark);
+  fill: var(--hwc-color-gray-dark);
+  background: var(--hwc-color-gray-normal);
+  border-color: var(--hwc-color-gray-normal);
+  outline: 0;
+  box-shadow: none;
+  cursor: default;
+}
+
+/**
+ * Modifers: sizes
+ */
+.small {
+  font-size: 16px;
+  height: 44px;
+  padding: 12px 16px;
+}
+.medium {
+  font-size: 18px;
+  height: 50px;
+  padding: 15px 20px;
+}
+.large {
+  font-size: 18px;
+  height: 58px;
+  padding: 19px 24px;
+}
+
+/**
+ * Modifers: width
+ */
+.fullWidth {
+  width: 100%;
+}
+.fullWidthOnMobile {
+  /* @media (--max-medium) {
+    width: 100%;
+  } */
 }

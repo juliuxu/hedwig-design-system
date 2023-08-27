@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@hedwig-julian/button": "0.1.0",
+    "@hedwig-julian/tokens": "0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

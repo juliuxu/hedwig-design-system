@@ -10,8 +10,8 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "style-dictionary build --config config.cjs",
-    "dev": "npm run build && chokidar \"config.cjs\" \"tokens.json\" -c \"npm run build\"",
+    "build": "tsx build.ts",
+    "dev": "npm run build && chokidar \"build.ts\" \"tokens/**\" -c \"npm run build\"",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
@@ -26,6 +26,7 @@
     "sd-tailwindcss-transformer": "1.4.0",
     "style-dictionary": "3.8.0",
     "tsup": "^7.2.0",
+    "tsx": "3.12.7",
     "typescript": "^5.2.2"
   },
   "publishConfig": {

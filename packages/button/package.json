@@ -19,7 +19,6 @@
     "@hedwig-julian/tsconfig": "*",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
-    "esbuild-css-modules-plugin": "3.0.0-dev.20",
     "eslint": "^8.15.0",
     "eslint-config-hedwig-julian": "*",
     "postcss": "8.4.28",
@@ -30,5 +29,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "classnames": "2.3.2"
   }
 }

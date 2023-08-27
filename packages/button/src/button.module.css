@@ -7,7 +7,8 @@
   border-radius: var(--hds-border-radius);
   border-width: 0px;
   font-family: var(--hds-fonts-posten-sans-medium-name);
-  line-height: var(--hds-typography-body-line-height);
+  /* TODO */
+  /* line-height: var(--hds-typography-body-line-height); */
   transition: all var(--hwc-transition-time-quick)
     var(--hds-micro-animation-easing-normal);
   text-align: center; /* Center text when this is an <a> */

@@ -17,13 +17,13 @@
   },
   "devDependencies": {
     "@hedwig-julian/tsconfig": "*",
-    "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.4",
-    "eslint": "^8.15.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.48.0",
     "eslint-config-hedwig-julian": "*",
     "postcss": "8.4.28",
     "postcss-nesting": "12.0.1",
-    "react": "^18.1.0",
+    "react": "^18.2.0",
     "tsup": "7.2.0",
     "typescript": "5.2.2"
   },

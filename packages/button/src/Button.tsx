@@ -24,7 +24,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       fullWidthOnMobile = false,
       disabled,
       ...rest
-    }: ButtonProps,
+    },
     ref
   ) => (
     <button

@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/postcss-import": "14.0.0",
-    "eslint": "^8.15.0",
+    "eslint": "^8.48.0",
     "eslint-config-hedwig-julian": "*",
     "postcss": "8.4.28",
     "postcss-import": "15.1.0",

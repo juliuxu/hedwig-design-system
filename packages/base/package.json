@@ -13,6 +13,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
+    "@hedwig-julian/tokens": "0.1.0",
     "@types/postcss-import": "14.0.0",
     "eslint": "^8.48.0",
     "eslint-config-hedwig-julian": "*",

@@ -3,19 +3,19 @@
   appearance: button;
   box-sizing: border-box;
   display: inline-block;
-  padding: var(--hwc-spacing-small-3) var(--hwc-spacing-medium-2);
+  padding: var(--hds-spacing-small-3) var(--hds-spacing-medium-2);
   margin-right: var(--hwc-spacing-small-4);
   border-radius: var(--hwc-border-radius);
   border-width: 0px;
-  background: var(--hwc-color-gray-normal);
-  border-color: var(--hwc-color-gray-normal);
+  background: var(--hds-ui-colors-grey);
+  border-color: var(--hds-ui-colors-grey);
   color: var(--hwc-color-button-text);
   fill: var(--hwc-color-button-text);
   font-family: var(--hwc-font-primary-medium);
   font-size: var(--hwc-font-size-small);
   line-height: var(--hwc-font-size-p);
   transition: all var(--hwc-transition-time-quick)
-    var(--hwc-transition-easing-normal);
+    var(--hds-micro-animation-easing-normal);
   text-align: center; /* Center text when this is an <a> */
   cursor: pointer;
   word-break: normal;
@@ -25,10 +25,10 @@
  * Disabled
  */
 .disabled {
-  color: var(--hwc-color-gray-dark);
-  fill: var(--hwc-color-gray-dark);
-  background: var(--hwc-color-gray-normal);
-  border-color: var(--hwc-color-gray-normal);
+  color: var(--hds-ui-colors-dark-grey);
+  fill: var(--hds-ui-colors-dark-grey);
+  background: var(--hds-ui-colors-grey);
+  border-color: var(--hds-ui-colors-grey);
   outline: 0;
   box-shadow: none;
   cursor: default;

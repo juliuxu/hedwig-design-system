@@ -9,7 +9,7 @@ function getStyleDictionaryConfig(brand: Brand) {
     source: ["tokens/shared.json", `tokens/brand-${brand}.json`],
     platforms: {
       web: {
-        prefix: "hedwig",
+        prefix: "hds",
         transformGroup: "css",
         buildPath: `dist/web/${brand}/`,
         files: [

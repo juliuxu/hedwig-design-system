@@ -1,0 +1,32 @@
+{
+  "name": "@hedwig-julian/base",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.css",
+    "dev": "npm run build -- --watch",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/postcss-import": "14.0.0",
+    "eslint": "^8.15.0",
+    "eslint-config-hedwig-julian": "*",
+    "postcss": "8.4.28",
+    "postcss-import": "15.1.0",
+    "postcss-nesting": "12.0.1",
+    "sanitize.css": "13.0.0",
+    "tsup": "7.2.0",
+    "typescript": "5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

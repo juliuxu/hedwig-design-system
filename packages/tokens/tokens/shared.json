@@ -166,148 +166,116 @@
   "typography": {
     "type": "typography",
     "posten-h1-display": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-bold}",
-        "fontSize": ["40px", "72px"],
-        "lineHeight": ["56px", "80px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-bold}" },
+      "fontSize": { "value": ["40px", "72px"] },
+      "lineHeight": { "value": ["56px", "80px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "posten-h1": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-bold}",
-        "fontSize": ["32px", "48px"],
-        "lineHeight": ["40px", "56px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-bold}" },
+      "fontSize": { "value": ["32px", "48px"] },
+      "lineHeight": { "value": ["40px", "56px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "posten-h2": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-medium}",
-        "fontSize": ["28px", "32px"],
-        "lineHeight": ["36px", "40px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-medium}" },
+      "fontSize": { "value": ["28px", "32px"] },
+      "lineHeight": { "value": ["36px", "40px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "bring-h1-display": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-light}",
-        "fontSize": ["40px", "72px"],
-        "lineHeight": ["56px", "80px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-light}" },
+      "fontSize": { "value": ["40px", "72px"] },
+      "lineHeight": { "value": ["56px", "80px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "bring-h1": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-light}",
-        "fontSize": ["32px", "48px"],
-        "lineHeight": ["40px", "56px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-light}" },
+      "fontSize": { "value": ["32px", "48px"] },
+      "lineHeight": { "value": ["40px", "56px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "bring-h2": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-regular}",
-        "fontSize": ["28px", "32px"],
-        "lineHeight": ["36px", "40px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-regular}" },
+      "fontSize": { "value": ["28px", "32px"] },
+      "lineHeight": { "value": ["36px", "40px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "header-h3": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-regular}",
-        "fontSize": ["22px", "24px"],
-        "lineHeight": ["28px", "32px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-regular}" },
+      "fontSize": { "value": ["22px", "24px"] },
+      "lineHeight": { "value": ["28px", "32px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "header-h3-title": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-medium}",
-        "fontSize": ["22px", "24px"],
-        "lineHeight": ["28px", "32px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-medium}" },
+      "fontSize": { "value": ["22px", "24px"] },
+      "lineHeight": { "value": ["28px", "32px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "body": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-regular}",
-        "fontSize": ["18px", "20px"],
-        "lineHeight": ["26px", "28px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-regular}" },
+      "fontSize": { "value": ["18px", "20px"] },
+      "lineHeight": { "value": ["26px", "28px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "body-title": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-medium}",
-        "fontSize": ["18px", "20px"],
-        "lineHeight": ["26px", "28px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-medium}" },
+      "fontSize": { "value": ["18px", "20px"] },
+      "lineHeight": { "value": ["26px", "28px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "body-small": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-regular}",
-        "fontSize": ["16px", "18px"],
-        "lineHeight": ["24px", "26px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-regular}" },
+      "fontSize": { "value": ["16px", "18px"] },
+      "lineHeight": { "value": ["24px", "26px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "body-small-title": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-medium}",
-        "fontSize": ["16px", "18px"],
-        "lineHeight": ["24px", "26px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-medium}" },
+      "fontSize": { "value": ["16px", "18px"] },
+      "lineHeight": { "value": ["24px", "26px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "technical": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-regular}",
-        "fontSize": ["14px", "16px"],
-        "lineHeight": ["22px", "24px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-regular}" },
+      "fontSize": { "value": ["14px", "16px"] },
+      "lineHeight": { "value": ["22px", "24px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "technical-title": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-medium}",
-        "fontSize": ["14px", "16px"],
-        "lineHeight": ["22px", "24px"],
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-medium}" },
+      "fontSize": { "value": ["14px", "16px"] },
+      "lineHeight": { "value": ["22px", "24px"] },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "caption": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-regular}",
-        "fontSize": "13px",
-        "lineHeight": "18px",
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-regular}" },
+      "fontSize": { "value": "13px" },
+      "lineHeight": { "value": "18px" },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     },
     "caption-title": {
-      "value": {
-        "fontFamily": "{fonts.posten-sans-regular}",
-        "fontSize": "13px",
-        "lineHeight": "18px",
-        "fontWeight": 400,
-        "letterSpacing": "0"
-      }
+      "fontFamily": { "value": "{fonts.posten-sans-regular}" },
+      "fontSize": { "value": "13px" },
+      "lineHeight": { "value": "18px" },
+      "fontWeight": { "value": 400 },
+      "letterSpacing": { "value": "0" }
     }
   },
   "border-radius": {
@@ -323,17 +291,15 @@
     "type": "borderWidth"
   },
   "shadow-default": {
-    "$type": "shadow",
-    "value": {
-      "color": "#00000022",
-      "offsetX": "0px",
-      "offsetY": "1px",
-      "blur": "5px",
-      "spread": "0px"
-    }
+    "type": "shadow",
+    "color": { "value": "#00000022" },
+    "offsetX": { "value": "0px" },
+    "offsetY": { "value": "1px" },
+    "blur": { "value": "5px" },
+    "spread": { "value": "0px" }
   },
   "micro-animation": {
-    "$type": "cubicBezier",
+    "type": "cubicBezier",
     "easing-in": {
       "value": [0.65, 0, 1, 0.1]
     },
